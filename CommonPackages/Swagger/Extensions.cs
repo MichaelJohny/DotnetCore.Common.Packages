@@ -49,3 +49,6 @@ namespace Swagger
         }
     }
 }
+
+
+// nuget push SwaggerPack.1.0.0.nupkg oy2ln3eyzm7ikjepf27azzvvvlupudeelobalukmzhqh3i -Source https://api.nuget.org/v3/index.json

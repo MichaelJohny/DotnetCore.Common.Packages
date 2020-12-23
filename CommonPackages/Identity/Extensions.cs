@@ -31,6 +31,7 @@ namespace Identity
             public static void AddCustomIdentityServer(this IServiceCollection services , IConfiguration configuration , string assembly)
             {
                 
+                
                 services.AddIdentityServer(options =>
                     {
                         options.Events.RaiseErrorEvents = true;
@@ -65,3 +66,7 @@ namespace Identity
             }
         }
 }
+
+
+
+// nuget push Idsv4Package.1.3.0.nupkg oy2ln3eyzm7ikjepf27azzvvvlupudeelobalukmzhqh3i -Source https://api.nuget.org/v3/index.json

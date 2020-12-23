@@ -2,6 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>SerilogLogging</PackageId>
+    <Authors>micho_johny</Authors>
+    <Product>SerilogLogging</Product>
+    <Version>1.2.0</Version>
   </PropertyGroup>
 
   <ItemGroup>

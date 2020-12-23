@@ -7,6 +7,9 @@
     <Product>Identity.package</Product>
     <Description>this is to get the identity server in the applicaiton</Description>
     <PackageId>Idsv4Package</PackageId>
+    <AssemblyVersion>1.4.0.0</AssemblyVersion>
+    <FileVersion>1.4.0.0</FileVersion>
+    <Version>1.4.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
@@ -16,10 +19,7 @@
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.5" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.5" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.5" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\Logging\Logging.csproj" />
+    <PackageReference Include="SerilogLogging" Version="1.2.0" />
   </ItemGroup>
 
 </Project>

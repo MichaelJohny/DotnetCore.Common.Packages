@@ -2,6 +2,10 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>SwaggerPack</PackageId>
+    <Authors>micho_johny</Authors>
+    <Product>SwaggerPack</Product>
   </PropertyGroup>
 
   <ItemGroup>
