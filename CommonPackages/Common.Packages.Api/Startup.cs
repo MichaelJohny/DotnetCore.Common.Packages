@@ -31,6 +31,8 @@ namespace Common.Packages.Api
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseStaticFiles();
+
             app.UseHttpsRedirection();
 
             app.UseRouting();
@@ -38,7 +40,11 @@ namespace Common.Packages.Api
             app.UseAuthorization();
 
             app.UseSwagger();
-            app.UseSwaggerUI(c => { c.SwaggerEndpoint("/swagger/v1/swagger.json", "Test API V1"); });
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Test API V1");
+                c.InjectStylesheet("/theme-material.css");
+            });
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();

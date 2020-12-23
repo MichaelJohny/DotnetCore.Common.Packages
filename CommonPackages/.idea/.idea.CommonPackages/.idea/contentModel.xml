@@ -25,6 +25,9 @@
         </e>
         <e p="Startup.cs" t="Include" />
         <e p="WeatherForecast.cs" t="Include" />
+        <e p="wwwroot" t="Include">
+          <e p="theme-material.css" t="Include" />
+        </e>
       </e>
       <e p="CommonPackages.sln" t="IncludeFlat" />
       <e p="Identity" t="IncludeRecursive">
